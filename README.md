@@ -1,4 +1,4 @@
-# Versionamento
+# Versionamento 💻
 
 
 ## Objetivo da atividade: Função PYTHON para calcular porcentagem
