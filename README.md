@@ -27,8 +27,14 @@
 2. Para fazer um aumento de valor:
         valor + (valor * valor divido por cem (100))
 3. Para fazer o desconto:
-        valor +-(valor * valor divido por cem (100))
+        valor -(valor * valor divido por cem (100))
 
 
 ### instruções básicas de uso do notebook
-    Para utilização deste notebook, basta efetuar o get e compilar com Python 3+
+    Para utilização deste notebook, basta efetuar o get e compilar com Python 3+:
+    As funções recebem a lista do carrinho contendo (valor, percentual)
+
+```
+    shop_cart = [(500, 10), (800, 25), (260, 38)]
+    add_percentage(shop_cart)
+```
